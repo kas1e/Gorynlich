@@ -1,0 +1,19 @@
+{
+ short_name="starstone"
+ raw_name="gem7"
+ tooltip="starstone"
+ z_depth="obj"
+ is_inactive
+ is_treasure
+ is_stackable
+ scale=0.5
+ hit_priority=1
+ is_carryable
+ bonus_cash_on_collect=1000
+ d10000_chance_of_appearing=1
+ tiles={
+  tile={
+   tile="gem7"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ short_name="gobbler mob"
+ raw_name="gobblermob"
+ tooltip="gobbler generator"
+ mob_spawn={ 1000 "gobbler" }
+ z_depth="obj"
+ is_mob_spawner
+ is_mob_spawner
+ is_effect_pulse
+ is_light_source
+ light_radius=1.0
+ light_tint="red"
+ is_candle_light
+ hit_priority=22
+ is_collision_map_player_sized
+ bonus_xp_on_death=200
+ d10000_chance_of_appearing=5
+ sound_on_death="squelch"
+ max_hp=100
+ mob_spawn_delay_tenths=100
+ tiles={
+  tile={
+   tile="gobblermob"
+  }
+ }
+}

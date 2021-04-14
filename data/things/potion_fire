@@ -1,0 +1,25 @@
+{
+ short_name="fire potion"
+ raw_name="potion_fire"
+ tooltip="fire potion"
+ z_depth="obj"
+ cost=100
+ is_treasure
+ is_potion
+ is_stackable
+ hit_priority=5
+ is_carryable
+ is_given_randomly_at_start
+ is_magical
+ is_valid_for_action_bar
+ sound_on_collect="potion"
+ d10000_chance_of_appearing=100
+ is_combustable
+ explodes_as="explosion3"
+ is_fragile
+ tiles={
+  tile={
+   tile="potion_fire"
+  }
+ }
+}

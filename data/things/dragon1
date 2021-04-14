@@ -1,0 +1,53 @@
+{
+ short_name="fire dragon"
+ raw_name="dragon1"
+ tooltip="fire dragon"
+ z_depth="explosion"
+ speed=10
+ max_hp=350
+ damage=50
+ bonus_xp_on_death=2000
+ is_effect_rotate_2way
+ vision_distance=15
+ hit_delay_tenths=5
+ sound_on_death="urgh2"
+ is_lava_proof
+ is_monst
+ is_shadow_caster
+ is_shadow_caster_soft
+ is_conical_breath_attack
+ scale=1.5
+ collision_radius=1.0
+ hit_priority=10
+ is_levitating
+ is_animated
+ sound_random="dragon"
+ sound_random_delay_secs=10
+ fires="fireburst1"
+ weapon_fire_delay_hundredths=500
+ d10000_chance_of_appearing=1
+ min_appear_depth=15
+ max_appear_depth=100
+ light_tint="red"
+ is_light_source
+ is_dragon
+ light_radius=3.5
+ tiles={
+  tile={ delay_ms=100 tile="dragon1-1" }
+  tile={ delay_ms=100 tile="dragon1-2" }
+  tile={ delay_ms=100 tile="dragon1-3" }
+  tile={ delay_ms=100 tile="dragon1-4" }
+  tile={ delay_ms=100 tile="dragon1-5" }
+  tile={ delay_ms=100 tile="dragon1-6" }
+  tile={ delay_ms=100 tile="dragon1-7" }
+  tile={ delay_ms=100 tile="dragon1-8" }
+  tile={ delay_ms=100 tile="dragon1-9" }
+  tile={ delay_ms=100 tile="dragon1-10" }
+  tile={ delay_ms=100 tile="dragon1-11" }
+  tile={ delay_ms=100 tile="dragon1-12" }
+  tile={ delay_ms=100 tile="dragon1-13" }
+  tile={ delay_ms=100 tile="dragon1-14" }
+  tile={ delay_ms=100 tile="dragon1-15" }
+  tile={ delay_ms=100 tile="dragon1-16" }
+ }
+}

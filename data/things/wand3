@@ -1,0 +1,50 @@
+{
+ short_name="wand of yet more plasma"
+ raw_name="wand3"
+ tooltip="wand of yet more plasma"
+ fires="fireball3"
+ weapon_fire_delay_hundredths=30
+ z_depth="obj"
+ cost=800
+ is_treasure
+ is_weapon
+ sound_on_collect="potion"
+ is_magical_weapon
+ can_be_enchanted
+ is_degradable
+ hit_priority=0
+ is_carryable
+ is_given_randomly_at_start
+ is_fragile
+ is_damaged_on_firing
+ d10000_chance_of_appearing=5
+ d10000_chance_of_breaking=10
+ is_light_source
+ light_tint="orange"
+ light_radius=0.1
+ is_combustable
+ explodes_as="explosion3"
+ is_wearable
+ is_collision_map_player_sized
+ is_animated
+ is_valid_for_action_bar
+ weapon_carry_anim="wand3_anim"
+ tiles={
+  tile={
+   tile="wand3.1"
+   delay_ms=50
+  }
+  tile={
+   tile="wand3.2"
+   delay_ms=50
+  }
+  tile={
+   tile="wand3.3"
+   delay_ms=50
+  }
+  tile={
+   tile="wand3.4"
+   delay_ms=50
+  }
+ }
+}

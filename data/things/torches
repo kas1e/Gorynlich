@@ -1,0 +1,47 @@
+{
+ short_name="bundle of torches"
+ raw_name="torches"
+ tooltip="bundle of torches"
+ z_depth="obj"
+ quantity=10
+ is_torch
+ is_carryable
+ is_light_source
+ is_stackable
+ cost=100
+ is_treasure
+ carried_as="torch"
+ light_radius=3.0
+ is_animated
+ d10000_chance_of_appearing=1000
+ tiles={
+  tile={
+   tile="torches3"
+   delay_ms=100
+  }
+  tile={
+   tile="torches1"
+   delay_ms=100
+  }
+  tile={
+   tile="torches2"
+   delay_ms=100
+  }
+  tile={
+   tile="torches4"
+   delay_ms=100
+  }
+  tile={
+   tile="torches3"
+   delay_ms=100
+  }
+  tile={
+   tile="torches3"
+   delay_ms=100
+  }
+  tile={
+   tile="torches4"
+   delay_ms=100
+  }
+ }
+}

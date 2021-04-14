@@ -1,0 +1,1153 @@
+Tue Nov  3 07:36:21 EST 2015
+- make torches last longer
+- walls easier to destroy
+
+Sun Nov  1 21:29:39 EST 2015 (version 0.0.6)
+- adapt to SDL version 1 ot 2 installed
+
+Sun Nov  1 07:39:34 EST 2015 (version 0.0.4)
+- fixed crash if you reached edge of level
+
+Sat Oct 17 17:03:19 EDT 2015
+- split main sprites into 2 files to be power of two in height
+
+Thu Oct 15 20:54:00 EDT 2015
+- add help screen
+
+Wed Oct 14 22:27:58 EDT 2015
+- fix crash in intro!
+
+Tue Oct 13 17:24:17 EDT 2015
+- more maze fragments to make levels tougher
+- doors easier to blast through
+
+Sun Oct 11 08:41:25 EDT 2015
+- hit shopkeeper should make him mad
+- damage stuff in shop should make shopkeeper mad
+- stop players lighting walls above them
+- got rid of tiny and small collision maps
+- increase size of fireball collision map
+- show spending points as lesser message to not overlap on other more importants ones
+- remove quest completed in hiscore on level editor end
+- more intense light sources
+- demons were too hard, moving through walls
+- crystals glow more
+- light sources still buggy
+
+Sat Oct 10 23:13:09 EDT 2015 (version 0.0.3)
+- sawblades too noisy
+- map editor previews too large
+- teleports not working?
+- click during intro doesn't stop it 
+
+Sat Oct 10 17:42:50 EDT 2015 (version 0.0.2)
+- windows crashes fixed
+- clean up third party dir
+- shrunk git size
+
+Tue Oct  6 09:45:52 EDT 2015 (version 0.0.1)
+- msys2 port begins
+- changed to fixed number of ramdisk files for msys
+
+Sat Oct  3 14:13:05 EDT 2015
+- spawn on death has options
+- mudmen
+- more food
+
+Fri Oct  2 22:44:55 EDT 2015
+- neoguid@hotmail.com is ok with game sprites being used, need to add credits
+  http://neoriceisgood.deviantart.com/art/100-glassware-sprites-396246690
+
+Thu Oct  1 22:42:01 EDT 2015
+- mushman breath attack
+- mushmen need less anim frames
+
+Wed Sep 30 19:00:28 EDT 2015
+- dragon not attacking in corridors
+- better dragon breath
+
+Tue Sep 29 07:33:57 EDT 2015
+- editor not making empty levels correctly
+
+Mon Sep 28 08:21:06 EDT 2015
+- death can't seem to get too close
+- death walking through walls
+- seedpods not spawning
+- spam, filling but slows you down
+- stats font too large
+- light source on edges of acid and lava only
+- spinning in stats window needs centered
+- deaths did not directly attack if sitting still
+- dragon breath attack looks lame
+- backward player sptires
+- slime is appearing over doors, redraw things on light source
+- press 1 for screenshot in game
+- no light around lava rocks
+- plant spawning does not work
+
+Sat Sep 26 12:42:29 EDT 2015
+- pizza and speed impacting spam
+- added debug dmap in real time
+- fixed light leaking through walls finally
+
+Fri Sep 25 19:55:53 EDT 2015
+- explosion range
+- bomb animation in backpack looks nuts
+- bombs do not explode
+- bomb not killed on client
+
+Wed Sep 23 09:00:34 EDT 2015
+- green super ghost like slimer?
+- death comes not quite so quickly
+- slime spawns under walls!
+- centered scaled graphics at last
+- still too many lava rocks
+- cannot kill stickyslime
+
+Tue Sep 22 08:07:01 EDT 2015
+- ghosts should float over lava
+- sticky slime attacked bonepile
+- slime that sticks players
+- slimey ghost
+- added slimeball
+- make brazier tall
+
+Mon Sep 21 22:07:14 EDT 2015
+- saw blades go through rock
+- too many lava rocks
+- ring light not centered
+- animate mobs
+
+Sat Sep 19 21:58:25 EDT 2015
+- rings cannot be seen
+- too many acid blobs made, ran out of ids
+- crash 00:00:18.580: ERROR: server: thing template [med_explosion] cannot be placed at -0.308593 44.805237
+- wand shoot left right hits walls again
+- player appears on top of stalacmites
+- tall rocks
+
+Thu Sep 17 12:10:21 EDT 2015
+- have acid move around
+- acid
+
+Sat Sep 12 18:56:02 EDT 2015
+- skeleton and arrow did not attack
+- wizards wand lights up left hand wall too much
+- big jesus halo is not animated
+- wizard wand explodes too massively
+- wizard walk left jumpy
+- statues should be destoyable
+- is lava a monster? jesus attacked it
+- zombies get blocked by own corpses
+- zombies leave wizard bones? looks odd
+
+Thu Sep 10 07:34:53 EDT 2015
+- monsters caught in lava should explode when dead
+- faster editor map loading
+- got rid of data/things/ in all things names
+
+Wed Sep  9 15:05:35 EDT 2015
+- use tga instead of png for sightly faster loading and better alpha
+- game is jumpy, dmap scale issue at 96x96
+
+Wed Sep  9 07:41:17 EDT 2015
+- much faster dmap calculation
+
+Mon Sep  7 22:01:11 EDT 2015
+- fix lava and acid
+
+Sun Sep  6 08:56:48 EDT 2015
+- collision detection for blades needs fixed
+- saw blade sounds
+- more volume levels
+- add juggernaut
+- saw blades need to move like juggernaut and be larger
+- light no longer leaks through doors!
+
+Sat Sep  5 09:25:20 EDT 2015
+- double graphics resolution!
+
+Wed Aug 12 22:20:33 EDT 2015
+- made map loading faster
+
+Wed Aug 12 16:44:17 EDT 2015
+- jigsaw levels with actions
+
+Tue Aug 11 22:45:50 EDT 2015
+- made levels 96x96 to allow chunks of 32x32 in world mode
+
+Mon Aug 10 22:20:25 EDT 2015
+- pcg triggers not quite working yet with colors
+
+Sun Aug  9 10:51:01 EDT 2015
+- jigsaw actions underway
+
+Sat Aug  8 11:17:27 EDT 2015
+- holy sword needs to do stuff
+- blood sucking sword needs to do stuff
+- rage and perma add rage
+- ring of resurrection
+- jesus was literally raising zombies!
+- blood splatter with jesus for some reason
+
+Wed Aug  5 20:12:03 EDT 2015
+- double and triple fire wands
+- reverse, double triple and burst fire abilities to unlock
+- add weapon spread and density
+
+Tue Aug  4 23:44:58 EDT 2015
+- ring of war / completeness
+- weapon fire density 
+
+Mon Aug  3 22:46:54 EDT 2015
+- 4 fire wands of increasing power
+
+Sun Aug  2 11:26:44 EDT 2015
+- full screen without frame
+- check explosion kills zombie corpses
+- need laptop size or check screen size for too large at startup
+- default full screen
+- collect weapon noises
+- let jesus fight death, not scare death away!
+- monsticide should not destory items
+- big Jesus
+
+Sat Aug  1 08:12:03 EDT 2015
+- added more SDL screen sizes
+- SDL clear last error
+- fix SDL for createwindow
+
+Thu Jul 30 23:37:34 EDT 2015
+- single teleport didn't work again 
+- show the random level id ?
+
+Tue Jul 28 19:07:20 EDT 2015
+- turn off vsync by default
+
+Mon Jul 27 12:51:08 EDT 2015
+- SDL diff
+- full screen
+- ring of resistance
+
+Fri Jul 24 22:16:20 EDT 2015
+- the all-cheese
+
+Thu Jul 23 23:23:56 EDT 2015
+- large trolls should be negative y off centered
+- slower swing for clubs and scythes
+- more treasure torches
+- magic seems a bit dodgy
+- walls too hard to destroy
+- bell didn't toll
+- music didn't change
+
+Sat Jul 18 09:32:36 EDT 2015
+- better dragon breath
+- dragons need to roar randomly
+- zombies need to groan randomly
+- dragon explosion too boomy
+- music when death comes
+- multiple bell toll
+- bell toll doesn't happen
+- spending points stuff overlaps
+- death message is too small- why?
+- magic cloud gets hosed in corridors
+- magic cloud left behind sometimes
+
+Fri Jul 17 22:17:05 EDT 2015
+- does death is coming work? never seen it
+- blue glow for death
+
+Thu Jul 16 18:29:48 EDT 2015
+- cash register message is gone!
+- use dmap for sounds
+- fucking dragon appeared on level 2 again!
+- alpha lights with dmap distance
+- shop money should only bounce when in shop
+
+Wed Jul 15 22:43:13 EDT 2015
+- light sources outside level should not be visible; use dmaps
+
+Tue Jul 14 13:19:39 EDT 2015
+- can hit ghosts down through walls with valkyrie
+- dragon on level 1!?
+- action bar nicer alpha
+- player stands next to door and ghosts do not attack
+- can see through walls slightly
+
+Mon Jul 13 21:57:16 EDT 2015
+- move a weapon onto inventory, should swap
+- weapons seem to move from sorted to unsorted in inventory
+- very short sword collected twice showed up red twice in inventory
+
+Sun Jul 12 10:35:28 EDT 2015
+- need female moan
+- need floor for outside of dungeon - dirt
+- radial collisions not working
+- sound line of light and fading
+
+Sat Jul 11 15:35:11 EDT 2015
+- intro screens
+- more music
+
+Wed Jul  8 21:38:33 EDT 2015
+- removed dead ends in levels
+- ensure start and end of maze are far apart
+- dragons!!!
+
+Sun Jul  5 11:28:21 EDT 2015
+- added game over screen
+- level name in single player missing due to ping pong missing
+- auto equip boots and rings
+
+Sat Jul  4 11:02:23 EDT 2015
+- boots of speed work
+- backspace deletes twice in level title
+- 100 LEVELS!
+- orc fortress
+- corridor wall hit prio
+- hard doors
+- minor: lifespan code not used
+
+Fri Jul  3 17:35:07 EDT 2015
+- add game end
+- large demon and cthulu
+- no lava hitting projectiles
+- fireball receving damage does not cause effect on caster
+- editor style would use shop floor tiles
+- slow lava option
+- traps were trying to shoot through walls
+- disable teleport of lava onto lava
+- create generator class, different from mob spawners like slime molds
+
+Thu Jul  2 19:07:46 EDT 2015
+- template ids > 256
+- skeleton archer
+- lava: No weapon to swing
+- minor: increase move granulariy on server so projectiles line up with player more
+
+Tue Jun 30 08:56:52 EDT 2015
+- quieter logs in single player
+- faster ghosts
+- less frequent shops
+- audio crash with 6 channels
+- removed level flipping as messed up directions on triggers
+- items outside level to not get floor tiles
+- faster single player sockets
+
+Wed Jul  1 23:29:06 EDT 2015
+- blue tracking lights
+- glowing ghosts
+- fast small lights
+
+Sun Jun 28 22:07:30 EDT 2015
+- multiple shops, stealing seems to work
+- level load in installed image
+
+Sat Jun 27 17:59:56 EDT 2015
+- mplayer server experimental
+- added corridors
+- make level jig tiles 13x13?
+
+Fri Jun 26 22:49:25 EDT 2015
+- collect key, shopkeeper kills!
+- boots of speed?
+- better looking invenrtory
+- added boots armour and helmets
+- check armour works
+- web walking boots, lava and acid boots
+
+Wed Jun 24 19:20:31 EDT 2015
+- torches icon
+- sound effects for weapons and hits http://www.bfxr.net/
+- player death bell
+- fireball2/3 sound
+- slime death sound
+- arrow fire sound
+- player death noise needed?
+
+Tue Jun 23 21:41:03 EDT 2015
+- treasure gobblers bounce around with nowhere to go when no treasure
+- death by shotgun should be by shopkeeper
+
+Sun Jun 28 11:40:32 EDT 2015
+- windows build working
+- choose valkyrie, get wrong player
+
+Sat Jun 20 12:18:47 EDT 2015
+- add money
+- shopkeeper retaliates
+- player teleport was not updating on client
+- some potions should not explode
+- shopkeepers hitting own items
+- add shop
+- handle buy from shop
+- handle steal from shop
+- handle sell in shop
+- handle damage in shop
+
+Fri Jun 19 22:50:29 EDT 2015
+- gobblers not eating treasure
+- shopkeepers not shooing monsters
+- shop items and owners and popup cost
+- teleports not working on random levels
+
+Tue Jun 16 22:02:09 EDT 2015
+- shotgun
+
+Mon Jun 15 22:11:57 EDT 2015
+- gobbler eats treasure
+- orc random spawn
+- orc soldier, captain, sorceror, baby, orc titan, ork hulk?
+- zomboy, zomgal, zombaby
+
+Mon Jun  8 22:00:21 EDT 2015
+- orc swings in right direction
+- more sword carry anim
+- orc with weapon
+
+Mon Jun  8 06:26:35 EDT 2015
+- ensure 2 teleports at least on levels
+
+Sun Jun  7 14:24:12 EDT 2015
+- gobbler
+- sorceror mob
+- sorcerors
+- zombie
+
+Sat Jun  6 09:46:06 EDT 2015
+- change DIE to ERR in most cases
+- rotate rooms
+- start randomly in first 10 rooms
+- xp gives 1 spending point each 10000
+- pause character on spending point window - on single player?
+- treasure levels
+- spending points on level end
+- wildcard treasure types
+- telport was not updating position
+- random items in fixed levels
+
+Fri Jun  5 21:24:57 EDT 2015
+- circle of deaths level
+- levitating check for lava
+
+Thu Jun  4 12:54:44 EDT 2015
+- levels 3.6
+- levels 3.7
+- levels 3.8
+- takes 2 presses to eat food
+
+Wed Jun  3 11:16:16 EDT 2015
+- projectile going through shield
+- health ticking down due to magic
+- brick wall not very good looking
+
+Tue Jun  2 21:28:17 EDT 2015
+- editor yank of floor failed
+- acid
+- map_depth as string
+- need more dungeony floor tiles
+- more wall types
+
+Sat May 30 12:46:25 EDT 2015
+- lava 
+- teleports
+- smaller gems
+- spider eyes only
+- slime spawn only same type
+- machine bow
+- slower fire speed of arrows
+- ghost spawning through door
+
+Wed May 27 07:44:25 EDT 2015
+- xbox cannot select potions
+- seperate selecf of items on action bar
+- diagonal spawning
+
+Tue May 26 19:08:44 EDT 2015
+- crash on editor off end of map
+
+Mon May 25 08:27:19 EDT 2015
+- eyebawl generator for charlottes maze
+- add potion block to editor
+- test level halts on start sometimes
+- level
+- crash on editor changing title and test mode at same time
+- do not use lit walls in themeing levels; to many lights
+- add charlottes maze
+
+Sun May 24 22:05:34 EDT 2015
+- 4 levels
+- shields need to accumulate again
+- print shield status
+- shield lost on level end
+- shield progress
+- magic ploughs through multiple baddies
+
+Sat May 23 20:49:42 EDT 2015
+- on new level, walls need fixed up quicker
+- exit on editor test levels does not work
+- bomb did not kill webs right under player
+- can see through purple doors when too close
+- ghost sitting under you does no damage
+- damage of 1 from fireball
+- health recovers too fast - should only be if not hit
+
+Sat May 23 10:47:31 EDT 2015
+- 32x32 editor template
+- blood only from warm blooded monsters
+- x,y in level ed
+- level title not shown
+
+Thu May 21 21:34:02 EDT 2015
+- better looking death
+- s for spending points working
+- on level shake, still see light leak
+- monster shake was not working
+
+Mon May 18 21:43:26 EDT 2015
+- spawn death after a long time
+
+Sun May 17 15:52:27 EDT 2015
+- level completed shown twice
+- shields should be additive when used
+- magic is off center when fired
+- magic build up animation
+- cloud.png grows when using magic
+- spiders should turn direction when firing
+- too many cobwebs in one place
+- skull monster
+
+Sat May 16 15:13:18 EDT 2015
+- spider webs that slow you down and spiders that fire them, webs spawn spiders too
+- larger death image
+- small ghosts in a corridor all line up - can't fix, as ai only calcs whole number net hops
+- spiders
+- collision radius should not work for triggers
+- sawblades hitting trigger incorrectly
+- cobwebs 
+- cobweb weapon
+
+Sun May 10 12:03:11 EDT 2015
+- press m for magic to build up magic attack
+- fixed light for scaled widgets
+- flag magic green on use
+- shield smooth anim
+- magic attack - green fireball?
+- attack magical must do something
+- magic firing
+
+Sat May  9 08:51:54 EDT 2015
+- magic healing
+- healing must do something
+- make cheese holy
+- vision must do something
+- defense must do something
+- show little bars when hovering over an item as to its abilities, sho attack/defese/shield
+- overlapping wall pixels
+- brightened up doors
+- added door pixels to avoid light leaking through
+- big delay on start game; faster map finding using cells
+
+Fri May  8 21:40:38 EDT 2015
+- speed must do something
+- wizard fire a bit too fast
+- need radial collision detection for sawblades
+
+Thu May  7 07:30:26 EDT 2015
+- demon gets stuck in corridors
+- death can't get too close to walls
+- fireball and plasmaball firing
+
+Tue May  5 20:23:18 EDT 2015
+- wizard cannot shoot diagonally up
+- sawblades die instantly on being hit by weapons
+- ethereal demons avoid sawblades
+
+Mon May  4 22:36:17 EDT 2015
+- variable size slimes
+- bomb did not appear
+- once caught in blood splatter cannot escape
+- explosion not layered any more
+
+Sun May  3 07:46:51 EDT 2015
+- exploding slime and configurable explodes as
+- jumping slime
+
+Sat May  2 17:16:04 EDT 2015
+- cats eyes broken again
+- scaled down speed of things by x5 for slime molds
+- added slime / demon / cthulu - not functional yet
+
+Thu Apr 30 07:44:28 EDT 2015
+- attack melee must do something
+- attack ranged must do something
+
+Wed Apr 29 07:42:05 EDT 2015
+- out of slots adding blood
+- map periodic updater is too slow
+- sped up level obstacle generation
+- some optimizations for opengl ops; prob does nothing
+- poison gas cloud kills user
+
+Tue Apr 28 21:11:51 EDT 2015
+- crash with weapon wear fixed
+- crash with opengl tex buf overflow poss fixed
+- poison should not destroy spinning blades
+- better brazier effect
+- replace wizard fireball
+
+Sun Apr 26 09:13:03 EDT 2015
+- fix level scrolling so when explosions leak over the edge the level scroll doesn't jump
+- better explosions
+- rounded explosion patterns
+- taller tiles slightly
+- shield potion does nothing
+- thing effects were borked
+
+Sat Apr 25 23:02:40 EDT 2015
+- shield potion sort of works
+
+Sat Apr 25 08:50:59 EDT 2015
+* minor bug: power up effect is a bit feeble on shield potion
+* minor bug: apple and water icons look a bit crap
+
+Fri Apr 24 19:48:42 EDT 2015
+* diamond sword doesn't look diamond
+* pale blue transparent with white border for messages?
+
+Thu Apr 23 21:48:04 EDT 2015
+- weapon fire delay in hundredths
+- more editor undo
+* minor bug: center textures in the action bar
+
+Wed Apr 22 10:44:16 EDT 2015
+* minor bug: weapon swing is nutso fast when fps sync is off
+- weapon damage only for hard things
+- bow damage only on firing
+- drops bombs under player
+
+Tue Apr 21 07:56:18 EDT 2015
+- walls must be destroyable
+- stand above a mob spawner and sword does no damage
+- blades only get bloodied on warm blooded things
+- spawned gravestones must be hard to kill
+
+Sun Apr 19 10:16:39 EDT 2015
+- saw blade with blood!
+- console font is not really fixed width
+- need edit button for existing things
+- check text pop up can do color
+- super meat boy style spinning blades of death on invisible tracks
+- can't shoot through diagonal walls
+- saw blade not spinning on anim
+- start default as white trigger
+
+Sat Apr 18 08:15:59 EDT 2015
+- cannot collect torch after dropping
+- no light source for weapons
+- can drop all torches and go into darkness
+- bomb lighting is odd when at edge of visibility
+- bomb chain
+- explosion in a long corridor does not work, fizles out
+
+Fri Apr 17 20:09:47 EDT 2015
+- some explosions on client would fizzle out
+- explosions can bend around corners
+- activate bomb on drop
+- bomb needs to be collectable
+
+Thu Apr 16 07:30:56 EDT 2015
+- bomb chain explosions; need sleeping yet active
+- yank with layers does not work
+- implement bomb
+- activate bomb on trigger
+
+Tue Apr 14 07:11:36 EDT 2015
+- back to draw mode on choose tile
+- add block move trigger
+- add monst move trigger
+
+Mon Apr 13 18:46:16 EDT 2015
+- signpost trigger
+- move some tiles top right
+- level title dialog
+- undo fix
+
+Sun Apr 12 10:48:24 EDT 2015
+- remove gothic and window textures - no longer needed
+- make item bar wider
+- make ghosts gray so white bonepiles stand out?
+- zap block trigger
+- need painted things for debug in game mode too
+- moving wall kills monsters and spawners tool
+- added paint ability
+
+Sat Apr 11 18:39:28 EDT 2015
+- explosion no longer working
+- check thing can follow a path
+- block move broken again!
+
+Fri Apr 10 22:10:31 EDT 2015
+- add colored triggers
+
+Thu Apr  9 05:57:35 EDT 2015
+- load/save colors in level
+- added color picker
+
+Sun Apr  5 07:50:19 EDT 2015
+- add level edit layer filters
+- implement spawn trigger
+- if no trigger, auto move things
+
+Sat Apr  4 20:11:15 EDT 2015
+- implement touch triggers
+- stop moving blocks joining onto other blocks
+
+Sat Apr  4 12:15:25 EDT 2015
+- need single player global flag
+- single player mode direct socket
+
+Thu Apr  2 21:45:11 EDT 2015
+- move things to fixed timestamps from server
+
+Wed Apr  1 22:14:08 EDT 2015
+- walls change direction too soon when changing dir
+
+Sun Mar 29 07:51:36 EDT 2015
+- previews broken
+- block shadows too large on 1.1
+- during test level when died, did not return to editor
+- object moving around on actions
+- level randomize button
+
+Fri Mar 27 07:55:10 EDT 2015
+- small previews and exit flashing
+- rechoose exit if reselected
+- default focus on map should be first level
+
+Thu Mar 26 17:34:58 EDT 2015
+- choose exit in editor
+- add level exit marshalling
+- draw joined levels
+- arrow connectors
+
+Thu Mar 26 07:35:12 EDT 2015
+- colored map tiles to indicate if level has start and exit
+
+Wed Mar 25 16:27:59 EDT 2015
+- level exits work finally
+
+Tue Mar 24 22:15:16 EDT 2015
+- added exits to level data, need to use them next
+
+Sun Mar 22 12:53:51 EDT 2015
+- added more light contrast
+- decreased zoom a bit
+- jump to map not tiles on edit level
+- save postion on map
+- need saved focus for tile and map mode and for each tile family
+- switching tab at top changes chosen tile
+- chosen tiles for each tab shown at bottom too
+- create tabs for monst/floor/wall
+- need test level shortcut
+- button to create template level
+- level rotate button
+
+Sun Mar 22 10:28:51 EDT 2015
+- added tile pools
+- added raw name to templates for anims in editor
+
+Sat Mar 21 17:29:55 EDT 2015
+- rik: eyebawl!
+- added eyebawl pulse 
+- random level in editor along with styles
+
+Sat Mar 21 11:03:38 EDT 2015
+- test level integrated into editor
+- rotate/flip level
+
+Fri Mar 20 22:44:25 EDT 2015
+- level border feature
+- cut/copy/paste finally work!
+
+Thu Mar 19 07:11:39 EDT 2015
+- added cut/paste/yank/square
+
+Mon Mar 16 07:13:43 EDT 2015
+- undo fixed
+- holding space and move does now draw
+- map fixup of walls and doors
+
+Sun Mar 15 20:03:42 EDT 2015
+- hitting enter on editor menu does nothhing
+- editor revamp undo mode
+- editor revamp back menu
+- editor revamp option to save
+- hit space to select level on map
+- editting a level for second time does not load it
+
+Sun Mar 15 12:45:55 EDT 2015
+- editor revamp in progress - fill and line draw done
+
+Thu Mar 12 22:02:16 EDT 2015
+- wheel scroll seems backwards?
+- mouse editor icon vanished behind rock tiles
+- fix editor map wiggle of widgets
+- editor red highlight goes off tiles sometimes
+
+Tue Mar 10 06:57:02 EDT 2015
+- maked level ed a bit larger
+- level ed should hit buttons on click
+- levels need to be y.x not x.y
+
+Sun Mar  8 11:48:01 EDT 2015
+- sometimes hitting q in game the focus is not on the quit menu until mouse move
+- test level ability
+- add level map chooser screen, use x,y as level coords
+
+Sat Mar  7 17:02:55 EST 2015
+- level previews
+- added level map widget
+
+Fri Mar  6 21:04:27 EST 2015
+- revamp join server window
+- fixed text outline fading
+- wid tooltips check against old text to prevent early destroy
+
+Thu Mar  5 07:15:28 EST 2015
+- server edit menu visible/not working
+
+Wed Mar  4 07:14:00 EST 2015
+- adding edit/add server menu
+
+Sun Mar  1 07:36:18 EST 2015
+* minor bug: cannot select 'S' for settings menu, goes to 's' quick start
+- multiplayer, join game does not show stats window - no need now
+- keyboard widgets do not center
+- spending points go negative
+- fix back in all windows
+- recolored backgrounds
+- down on intro screen goes back to middle
+
+Sat Feb 28 19:50:59 EST 2015
+- revamped create server window
+- add numpad to wid server create
+
+Sat Feb 28 08:01:44 EST 2015
+- intro settings mouse click doe not work
+- revamp stats window? move all done into spending menu
+
+Fri Feb 27 21:28:31 EST 2015
+- revamp set wid editor title
+- move item from action bar does not redraw
+- need menu with 2 or 3 columns for settings
+
+Fri Feb 27 07:45:03 EST 2015
+- got rid of stats panel in game, had little use
+- remove spending points from in game stats menu
+
+Thu Feb 26 22:15:40 EST 2015
+- sliding bar for scale for stat points
+
+Thu Feb 26 08:04:08 EST 2015
+- souped up background
+- player stats menu looks to be working
+- need menu with 2 or 3 columns for stats 
+
+Wed Feb 25 22:36:36 EST 2015
+- working on settings multitabbed
+
+Tue Feb 24 22:29:57 EST 2015
+- wid menu width columns created
+
+Mon Feb 23 08:45:54 EST 2015
+- added choose stats menu
+- add choose name screen
+- add choose player screen
+
+Sun Feb 22 15:30:39 EST 2015
+- added pclass choosing menu
+- added name choosing menu
+- keyboard focus on ok at start
+
+Sun Feb 22 07:54:27 EST 2015
+- click on action bar with A needs to work
+- make mouse visible on exit
+
+Sat Feb 21 19:44:08 EST 2015
+- add xbox 360 controller support for game player movement
+- add Y to pop up menu items
+- hide mouse on no move
+- l/r for moving through action items
+- if menu not popped up, left trigger moves player ?
+
+Sat Feb 21 08:11:46 EST 2015
+- player moving with xbox
+- right joy move not working
+- xbox button held does not draw
+- add xbox 360 controller support for editor buttons
+
+Fri Feb 20 20:41:37 EST 2015
+- hide cursor
+- fix joy accel
+
+Fri Feb 20 07:06:26 EST 2015
+- fixed buggy sdl mouse warping
+
+Thu Feb 19 22:08:33 EST 2015
+- xbox stuck at edges of screen
+
+Wed Feb 18 21:43:48 EST 2015
+- screen resoloution setting l/r does not work
+- move wid editor help tooltip down a bit
+
+Wed Feb 18 08:00:26 EST 2015
+- make the editor map larger
+- make the editor tile palette largeer
+- improved hiscore fonts
+- set max font size for scaling
+- editor map scrolling with xbox
+- more tiles onscreen in editor
+
+Tue Feb 17 08:07:09 EST 2015
+- wid keyboard and menu working with xbox controller
+- hiscore menu + xbox
+
+Mon Feb 16 20:46:20 EST 2015
+- xbox working with menu
+- xbox mouse working
+
+Sun Feb 15 20:42:29 EST 2015
+- keyboard widget done
+- add rumble support
+- add mouse icon
+- added font scaling
+- fix mouse motion recursion
+
+Sat Feb 14 21:17:41 EST 2015
+- started on wid keyboard
+
+Fri Feb 13 08:33:08 EST 2015
+- quit yes/no not working
+- swipe effect for menus
+- added random clicker to menus
+- started on create server menu
+
+Wed Feb 11 06:38:12 EST 2015
+- ERROR: Leave the current server first before trying to join again
+- picked up potion when had empty slots and potion in inventory and it went to inventory
+- wid menu should look at key pressed to find shortcut to menu
+
+Tue Feb 10 20:53:22 EST 2015
+- made inventory items larger
+- point popup vlarge seems to flash briefly
+- torch wobbles in in inventory
+- oversized inentory items
+
+Mon Feb  9 07:10:37 EST 2015
+- fixed outline on popup of points
+
+Sun Feb  8 19:15:10 EST 2015
+- create super menu system to simplify the cruddy menu systems
+  - need to recreate menu on intro visible
+  - zoom effect
+  - keyboard controlled or mouse
+  - left/right callbacks for change value
+  - combine intro menu with extras/quit/back
+  - change single/multiplayer window
+- moving the quit menu on the game moves the player
+- some quit strings too long now
+
+Sun Feb  8 08:52:05 EST 2015
+- editor/quit menu working again
+- choose player menu working
+
+Sat Feb  7 19:10:53 EST 2015
+- fixed ttf font padding
+
+Fri Feb  6 20:35:48 EST 2015
+- pulsing numbers appear briefly minimized
+
+Thu Feb  5 18:56:46 EST 2015
+- countdown values appear twice
+- gray out screen on death?
+- need to merge same items when dropping into inventory bar
+- need to group items when picking up in inventory
+
+Thu Feb  5 06:43:22 EST 2015
+- when dropping item of same type need to look for same item first
+- replacing items on full action bar does not always work
+- need to add stuff to the action bar all the time if there is space
+
+Wed Feb  4 20:17:49 EST 2015
+- health potion need some kind of glowing effect
+- change hit/miss/crit hit bitfields into a general effect message event to also accomodate health effects
+- fixed negative time for moving objects due to using gauss rand
+- when over max hp from a potion we were flashing red when decreasing health
+
+Wed Feb  4 07:08:34 EST 2015
+- split thing.c into client/server
+- added effect can be sent to client
+- added sparkles powerup
+
+Mon Feb  2 07:13:19 EST 2015
+- fixed up heart scaling on bonus
+- wid fade out issue, on end of fade would reapper
+
+Sun Feb  1 12:01:06 EST 2015
+- wid tile outline and scaling with recenter
+- added some hearts on health increases
+- added useless blit outline effect...
+- sending too many client status updates; now look for changes only
+- put a weapon in inventory and not selected
+- pop action bar last weapon does not unwield
+
+Sun Feb  1 08:14:28 EST 2015
+- update inventory while playing
+- pick up an item from the inventory and the wrong item is moved
+
+Sat Jan 31 11:54:52 EST 2015
+- spending points spending should not cause windows to zoom up/down
+- sword swing loses light source? wth
+- removed tooltip for player character on info screen when playing
+- tweaked the lighting again, added a bit of fuzz so the edges are beyond the end of 
+  the screen; this stops edges appearing with shaking 
+- keys and braziers made inactive
+- added version number to client stats
+
+Fri Jan 30 07:16:43 EST 2015
+- inventory panels should slide in nicely
+- zoom in the inventory panels
+- screen shake
+- shake player widget on hit?
+
+Thu Jan 29 07:24:46 EST 2015
+- bounce on walk
+- raise player over weapon when dead
+- lifeforce potion added string too long in bottom right window
+- hair more curly 
+- ghosts more transparent on bottom
+
+Wed Jan 28 08:33:12 EST 2015
+- dying anim not working
+- weapon placement on move needs fixed
+- dying anim wrong at start
+- shift left/right should not change dir
+
+Tue Jan 27 07:04:29 EST 2015
+- remove chat for single player
+- can use potions when dead?
+
+Mon Jan 26 08:06:11 EST 2015
+- fire missile next to wall - goes right through
+- collision detection broken
+- explosions on server are lingering when invisible on client
+- quit game whilst counting down - action bar still there
+- action bar appears on screen after level exit (quit in game)
+- super packets - need to pack small messages
+- text zoom looks a little odd when counting down
+
+Sun Jan 25 10:08:35 EST 2015
+- level no does not increase
+- explosions have no effect on bottom of screen
+- sword vanished on level 2
+- weapon left right switch
+- item bar selection broken with server
+- no switch to non weapons
+
+Sat Jan 24 18:55:22 EST 2015
+- keypress to switch weapon
+- mouse click to switch weapon
+- weapon collect did not update red box in action screen
+- explosion white out has small dots
+- click on weapon to switch
+- action items should be bigger
+- center them too
+- unknown rx thing error on explosions
+- hover over weapon for stats popup
+- action bar gray needs to be lighter
+
+Fri Jan 23 06:48:07 EST 2015
+- rapid fire of arrows too rapid - ok for master bow
+- pop of 0$ over player
+- score flashes red at level start
+- explosions too large
+
+Wed Jan 21 08:39:27 EST 2015
+- stop pulsing -9 when dead
+- health stops at -9 sometimes not -10
+- collect treasure popup
+- kill monst popup over monst not player
+
+Tue Jan 20 21:37:38 EST 2015
+- center player icon in inventory screen
+- action bar sort out stray pixels at top
+- mouse over popup, move popup out of the way
+
+Mon Jan 19 09:56:33 EST 2015
+- animate ghost better
+- taller elf
+- smooth scaling fonts
+- click to play
+- retro font
+- down diagonal arrow has line under it
+
+Sun Jan 18 09:30:50 EST 2015
+- new tiles
+
+Thu Jan 15 21:34:42 EST 2015
+- fonts too large in 640x480
+- health was at 2 on dead
+- need unconscious with tick down to -10
+
+Tue Jan 13 21:54:05 EST 2015
+- crash on death no reason
+- monster hits player when dead
+- on player death monsters did not wander off
+
+Mon Jan 12 21:38:13 EST 2015
+- flash health when critical
+- health should be 0 on dead
+
+Sin Jan 11 13:32:20 EST 2015
+- sending stats to server now
+- health randomly dropping
+
+FUTURE IDEAS
+------------
+
+- giant mushroom generator
+- slimes eat items in backpack if not eaten quickly
+- squidlings and water
+- glass blocks to move and once moving keep moving, like ice ?
+- sword of life sucking, steals hp and gives to you
+- statues and rocks that do not shoot ?
+- floor overlays
+- rhino juggernaut creature?
+- duck of doom bomb?
+- others that become juggernauts? and maybe some that push and explode?
+- pushable blocks and fix up moving walls
+- consult desktopbackground for more levels
+- move triggers do not seem to work on rocks
+- portion of teleport
+- money/xp doubler ring
+- cheese bomb turns enemies into cheese
+- cheese, lots of
+- rubber duck?
+- more slime molds? chocolate / vampiric etc?
+- imp that teleports and steals
+- ring of power attack, divert defense to attack
+- hulks for charlotte from goblin hack
+- possession ghost, cursed weapon, hit self
+- pop bouncing "help!" and arrow over player to give them a clue what to do
+- mirror traps that bounce back weapon fire?
+- teletrap monster
+- backpack drop on death
+- thief, kill thief to recover items
+- magic gives health to other players
+- add sledgehammer for dwarve?
+- death drops scythe on death
+- night vision goggles
+- crafting...
+

@@ -1,0 +1,50 @@
+{
+ short_name="wand of supreme damage"
+ raw_name="wand4"
+ tooltip="wand of supreme damage"
+ fires="fireball4"
+ weapon_fire_delay_hundredths=30
+ z_depth="obj"
+ cost=1000
+ is_treasure
+ is_weapon
+ sound_on_collect="potion"
+ is_magical_weapon
+ can_be_enchanted
+ is_degradable
+ hit_priority=0
+ is_carryable
+ is_given_randomly_at_start
+ is_fragile
+ is_damaged_on_firing
+ d10000_chance_of_appearing=2
+ d10000_chance_of_breaking=10
+ is_light_source
+ light_tint="orange"
+ light_radius=0.1
+ is_combustable
+ explodes_as="explosion4"
+ is_wearable
+ is_collision_map_player_sized
+ is_animated
+ is_valid_for_action_bar
+ weapon_carry_anim="wand4_anim"
+ tiles={
+  tile={
+   tile="wand4.1"
+   delay_ms=50
+  }
+  tile={
+   tile="wand4.2"
+   delay_ms=50
+  }
+  tile={
+   tile="wand4.3"
+   delay_ms=50
+  }
+  tile={
+   tile="wand4.4"
+   delay_ms=50
+  }
+ }
+}

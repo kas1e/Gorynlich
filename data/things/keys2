@@ -1,0 +1,20 @@
+{
+ short_name="keys"
+ raw_name="keys2"
+ tooltip="it's more keys"
+ z_depth="obj"
+ quantity=2
+ is_key
+ carried_as="key"
+ is_valid_for_action_bar
+ is_stackable
+ is_carryable
+ cost=15
+ d10000_chance_of_appearing=100
+ is_treasure
+ tiles={
+  tile={
+   tile="keys2"
+  }
+ }
+}

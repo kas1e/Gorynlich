@@ -1,0 +1,23 @@
+{
+ short_name="ripe apple"
+ raw_name="apple1"
+ tooltip="ripe apple"
+ z_depth="obj"
+ is_inactive
+ is_food
+ is_stackable
+ hit_priority=5
+ is_carryable
+ is_given_randomly_at_start
+ d10000_chance_of_appearing=50
+ sound_on_death="squelch"
+ is_fragile
+ scale=0.5
+ bonus_hp_on_use=15
+ message_on_use="%%fg=green$crunch"
+ tiles={
+  tile={
+   tile="apple1"
+  }
+ }
+}

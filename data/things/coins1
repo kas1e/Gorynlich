@@ -1,0 +1,18 @@
+{
+ short_name="loose change"
+ raw_name="coins"
+ tooltip="loose change"
+ z_depth="obj"
+ is_inactive
+ is_treasure
+ is_stackable
+ hit_priority=1
+ is_carryable
+ bonus_cash_on_collect=10
+ d10000_chance_of_appearing=100
+ tiles={
+  tile={
+   tile="coins1"
+  }
+ }
+}

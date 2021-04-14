@@ -1,0 +1,21 @@
+{
+ short_name="boots of speed"
+ raw_name="boots5"
+ tooltip="boots of speed"
+ z_depth="obj"
+ cost=1000
+ is_treasure
+ is_stackable
+ stats_speed=24
+ hit_priority=1
+ is_carryable
+ is_given_randomly_at_start
+ is_boots
+ can_be_enchanted
+ d10000_chance_of_appearing=5
+ tiles={
+  tile={
+   tile="boots5"
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ short_name="cobweb"
+ raw_name="cobweb"
+ tooltip="cobweb"
+ mob_spawn={ 
+   1000 "spider1" 
+   10 "spider2" 
+ }
+ z_depth="obj_top"
+ max_hp=3
+ is_mob_spawner
+ is_mob_spawner
+ mob_spawn_delay_tenths=500
+ hit_priority=9
+ is_cobweb
+ scale=0.5
+ bonus_xp_on_death=20
+ d10000_chance_of_appearing=10
+ tiles={
+  tile={
+   tile="cobweb1"
+  }
+ }
+}

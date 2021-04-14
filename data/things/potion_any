@@ -1,0 +1,15 @@
+{
+ short_name="any potion"
+ raw_name="potion_any"
+ tooltip="random potion"
+ z_depth="obj"
+ is_treasure
+ is_potion
+ is_magical
+ is_internal
+ tiles={
+  tile={
+   tile="potion_any"
+  }
+ }
+}

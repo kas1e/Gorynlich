@@ -1,0 +1,22 @@
+{
+ short_name="shield potion"
+ raw_name="potion_shield"
+ tooltip="shield potion"
+ z_depth="obj"
+ cost=100
+ is_treasure
+ is_potion
+ is_stackable
+ hit_priority=5
+ is_carryable
+ is_given_randomly_at_start
+ is_magical
+ is_valid_for_action_bar
+ d10000_chance_of_appearing=75
+ is_fragile
+ tiles={
+  tile={
+   tile="potion_shield"
+  }
+ }
+}

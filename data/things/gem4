@@ -1,0 +1,19 @@
+{
+ short_name="amethyst"
+ raw_name="gem4"
+ tooltip="amethyst"
+ z_depth="obj"
+ is_inactive
+ is_treasure
+ is_stackable
+ scale=0.5
+ hit_priority=1
+ is_carryable
+ bonus_cash_on_collect=150
+ d10000_chance_of_appearing=5
+ tiles={
+  tile={
+   tile="gem4"
+  }
+ }
+}
